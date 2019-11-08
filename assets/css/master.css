@@ -3,7 +3,7 @@ body{
   color: rgb(139, 149, 158);
 }
 ul li{
-  padding-right: 15px;
+  padding-right: 20px;
 }
 ul li a{
   color: rgb(139, 149, 158);
@@ -13,7 +13,7 @@ ul li a:hover{
   color: darkgray;
 }
 .pads{
-  padding: 3rem 0;
+  padding: 3rem 10rem;
 }
 
 /* general rules */
@@ -23,7 +23,7 @@ ul li a:hover{
 }
 
 
-.container #gta a{
+#gta a{
   padding: 10px 25px;
   border-radius: 25px;
   background: rgb(240, 0, 144);
