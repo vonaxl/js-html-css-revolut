@@ -2,21 +2,23 @@
 body{
   color: rgb(139, 149, 158);
 }
+ul li{
+  padding-right: 15px;
+}
 ul li a{
   color: rgb(139, 149, 158);
-  font-weight: 550;
 }
 ul li a:hover{
   text-decoration: none;
   color: darkgray;
 }
 .pads{
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 /* general rules */
 #logo a img{
-  width: 80px;
+  width: 95px;
   height: 25px;
 }
 
@@ -26,6 +28,8 @@ ul li a:hover{
   border-radius: 25px;
   background: rgb(240, 0, 144);
   color: white;
+  white-space: nowrap;
+  font-weight: 500;
 }
 
 .col-6 ul li:hover{
@@ -49,6 +53,7 @@ ul li a:hover{
 
 .dropContent ul li {
   padding: 1rem 0;
+  white-space: normal;
 }
 .dropContent ul li a{
   padding: 2rem;
