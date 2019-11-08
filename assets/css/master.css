@@ -10,7 +10,7 @@ ul li a{
 }
 ul li a:hover{
   text-decoration: none;
-  color: darkgray;
+  color: black;
 }
 .pads{
   padding: 3em 10em;
@@ -34,6 +34,7 @@ ul li a:hover{
 
 .col-6 ul li:hover{
   cursor: pointer;
+  color: black;
 }
 
 .drop{
