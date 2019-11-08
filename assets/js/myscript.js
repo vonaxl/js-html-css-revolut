@@ -1,9 +1,7 @@
 $( document ).ready(function() {
 
-    $("li").click(function(){
-        $(".dropContent").toggle();
+    $(".drop").click(function(){
+        $(".dropContent", this).toggle();
     });
-
-
 
 });
