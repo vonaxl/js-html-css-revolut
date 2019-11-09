@@ -1,8 +1,14 @@
 $( document ).ready(function() {
 
     $(".drop").click(function(){
-        $(".dropContent").not(this).removeClass("active");
-        $(".dropContent", this).addClass("active");
+        
+        if ($(".dropContent", this).hasClass("active")) {
+            $(".dropContent", this).removeClass("active");
+        }else{
+            $(".dropContent").not(this).removeClass("active");
+            $(".dropContent", this).addClass("active");
+        }
     });
+
 
 });
